@@ -9,10 +9,10 @@
         .container { background: #1a1a1a; padding: 40px; border-radius: 12px; border: 1px solid #333; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
         h1 { color: #d4af37; text-align: center; font-size: 2.5em; margin-bottom: 10px; }
         h2 { color: #d4af37; border-bottom: 1px solid #444; padding-bottom: 10px; margin-top: 40px; }
+        h3 { color: #d4af37; margin-top: 25px; }
         .feature-list { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; list-style: none; padding: 0; }
         .feature-item { background: #252525; padding: 15px; border-radius: 8px; border-left: 4px solid #d4af37; }
         
-        /* Butonat Gold */
         .btn-gold { 
             display: inline-block; 
             background: linear-gradient(145deg, #d4af37, #b8860b); 
@@ -26,9 +26,12 @@
         }
         .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4); }
         
+        .manual-section { background: #111; border: 1px solid #333; padding: 25px; border-radius: 12px; margin-top: 20px; }
         .privacy-box { background: #111; padding: 20px; border-radius: 8px; font-size: 0.9em; margin-top: 40px; border: 1px dashed #555; }
         footer { text-align: center; margin-top: 40px; font-size: 0.8em; color: #666; }
         .contact { color: #d4af37; font-weight: bold; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
     </style>
 </head>
 <body>
@@ -44,7 +47,7 @@
             <div class="feature-item"><strong>Live-Ready:</strong> MIDI Learn, Panic button, and 5 premium visual themes.</div>
         </div>
 
-       <h2>Software & Downloads</h2>
+        <h2>Software & Downloads</h2>
         <div class="feature-list">
             <div class="feature-item">
                 <strong>Windows Desktop</strong><br>
@@ -70,20 +73,29 @@
                 <a href="DefaultAB-MidiRouter-2026.json" class="btn-gold" download>Download JSON</a>
             </div>
         </div>
+
         <h2 id="manual">User Manual & Technical Guide</h2>
-<div style="background: #1a1a1a; border: 1px solid #333; padding: 25px; border-radius: 12px; font-size: 0.95em;">
-    <h3 style="color: #d4af37;">1. Connectivity & I/O</h3>
-    <p>Connect your MIDI controller via USB-OTG (Android) or USB (Windows). Use <strong>"Add MIDI Port"</strong> to create custom routing targets for your hardware (Korg, JuziSound) or VSTs (Kontakt, etc.).</p>
-    
-    <h3 style="color: #d4af37;">2. Combo Performance Mode</h3>
-    <p>Create massive sounds by layering instruments. Each slot allows independent control over <strong>Volume, Octave, and Terca (Thirds)</strong>. Use the <strong>Panic Button</strong> to clear stuck notes instantly.</p>
+        <div class="manual-section">
+            <h3>1. Connectivity & I/O</h3>
+            <p>Connect your MIDI controller via USB-OTG (Android) or USB (Windows). Use <strong>"Add MIDI Port"</strong> to create custom routing targets for hardware (Korg, JuziSound) or VSTs (Kontakt). Double-click ports to rename them for easy identification.</p>
+            
+            <h3>2. Combo Performance Mode</h3>
+            <p>Layer multiple instruments in a single performance. Each slot features independent control over:</p>
+            <ul>
+                <li><strong>Volume & Transpose:</strong> Set levels and octaves per instrument.</li>
+                <li><strong>Terca (Thirds):</strong> Enable the checkbox for specific slots to trigger harmonies automatically when the Terca button is active.</li>
+                <li><strong>Panic:</strong> Instantly resets MIDI buffer and stops stuck notes.</li>
+            </ul>
 
-    <h3 style="color: #d4af37;">3. Mapping & MIDI Learn</h3>
-    <p>Switch to <strong>Edit Mode</strong> or Long-press buttons/sliders to map MIDI CC, Program Changes (with MSB/LSB), or Sysex. Use <strong>MIDI Learn</strong> to link your physical hardware knobs to the app controls.</p>
+            <h3>3. Mapping & MIDI Learn</h3>
+            <p>Customize your workspace without coding. Use <strong>Edit Mode</strong> for pads or <strong>Long-press</strong> (2s) on sliders and side buttons to assign MIDI CC, Program Changes (with MSB/LSB support), or SysEx messages. Use <strong>MIDI Learn</strong> to sync with your physical knobs instantly.</p>
 
-    <h3 style="color: #d4af37;">4. Microtuning (Scales)</h3>
-    <p>Long-press any piano key to adjust tuning (-100 to +100 cents). Save your settings to the library or hold the <strong>Favorite buttons</strong> for 3 seconds to store quick-access presets.</p>
-</div>
+            <h3>4. Microtuning & Transpose</h3>
+            <p>Long-press any piano key to adjust tuning from <strong>-100 to +100 cents</strong>. Save custom scales to your library or hold the <strong>Favorite buttons</strong> for 3 seconds to store a quick-access preset. Global transpose is available via +/- buttons.</p>
+            
+            <h3>5. Data Management</h3>
+            <p>Save your entire configuration using the <strong>Diskette icon</strong>. For maximum safety, the app supports manual JSON text copying and easy loading from local storage.</p>
+        </div>
 
         <h2 id="privacy">Privacy Policy</h2>
         <div class="privacy-box">
