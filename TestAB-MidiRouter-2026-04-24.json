@@ -1,0 +1,7947 @@
+{
+  "version": "2.6",
+  "timestamp": "2026-04-25T01:27:48.771Z",
+  "sliderConfigs": [
+    {
+      "id": "s2",
+      "name": "MASTER VOLUME",
+      "midiChannel": 1,
+      "type": "CC",
+      "value": 7,
+      "currentValue": 45,
+      "outputIds": [
+        "v-port-1775512175560",
+        "v-port-1775512564150"
+      ]
+    },
+    {
+      "id": "s_1775514531527",
+      "name": "U1",
+      "midiChannel": 1,
+      "type": "CC",
+      "value": 0,
+      "outputIds": [
+        "output-3"
+      ]
+    },
+    {
+      "id": "s_1775514532783",
+      "name": "U2",
+      "midiChannel": 2,
+      "type": "CC",
+      "value": 0
+    },
+    {
+      "id": "s_1775514533588",
+      "name": "U 3",
+      "midiChannel": 3,
+      "type": "CC",
+      "value": 100,
+      "outputIds": [
+        "output-3"
+      ]
+    },
+    {
+      "id": "s_1775514535222",
+      "name": "S 5",
+      "midiChannel": 1,
+      "type": "CC",
+      "value": 100
+    }
+  ],
+  "leftSideButtons": [
+    {
+      "id": "side_l_0",
+      "name": "C",
+      "midiChannel": 1,
+      "type": "CC",
+      "value": 102,
+      "outputIds": [
+        "v-port-1775512564150"
+      ]
+    },
+    {
+      "id": "side_l_1",
+      "name": "C#",
+      "midiChannel": 1,
+      "type": "CC",
+      "value": 103,
+      "outputIds": [
+        "v-port-1775512564150"
+      ]
+    },
+    {
+      "id": "side_l_2",
+      "name": "D",
+      "midiChannel": 1,
+      "type": "NOTE",
+      "value": 62
+    },
+    {
+      "id": "side_l_3",
+      "name": "D#",
+      "midiChannel": 1,
+      "type": "NOTE",
+      "value": 63
+    },
+    {
+      "id": "side_l_4",
+      "name": "E",
+      "midiChannel": 1,
+      "type": "NOTE",
+      "value": 64
+    },
+    {
+      "id": "side_l_5",
+      "name": "F",
+      "midiChannel": 1,
+      "type": "NOTE",
+      "value": 65
+    }
+  ],
+  "rightSideButtons": [
+    {
+      "id": "side_r_0",
+      "name": "F#",
+      "midiChannel": 1,
+      "type": "NOTE",
+      "value": 66
+    },
+    {
+      "id": "side_r_1",
+      "name": "G",
+      "midiChannel": 1,
+      "type": "NOTE",
+      "value": 67
+    },
+    {
+      "id": "side_r_2",
+      "name": "G#",
+      "midiChannel": 1,
+      "type": "NOTE",
+      "value": 68
+    },
+    {
+      "id": "side_r_3",
+      "name": "A",
+      "midiChannel": 4,
+      "type": "NOTE",
+      "value": 69
+    },
+    {
+      "id": "side_r_4",
+      "name": "A#",
+      "midiChannel": 1,
+      "type": "NOTE",
+      "value": 70
+    },
+    {
+      "id": "side_r_5",
+      "name": "B",
+      "midiChannel": 1,
+      "type": "NOTE",
+      "value": 71
+    }
+  ],
+  "activeSideButtons": {
+    "side_r_0": false,
+    "side_r_1": false,
+    "side_r_2": false,
+    "side_l_0": false,
+    "side_r_5": false,
+    "side_r_3": false,
+    "side_l_2": false,
+    "side_l_1": false
+  },
+  "pages": [
+    [
+      {
+        "id": "p0_b0",
+        "name": "🪗HARMONIC President",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 0,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b1",
+        "name": "KORG Sound 2",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 1,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b2",
+        "name": "KORG Sound 3",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 2,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b3",
+        "name": "KORG Sound 4",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 3,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b4",
+        "name": "KORG Sound 5",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 4,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b5",
+        "name": "KORG Sound 6",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 5,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b6",
+        "name": "KORG Sound 7",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 6,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b7",
+        "name": "KORG Sound 8",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 7,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b8",
+        "name": "KORG Sound 9",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 8,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b9",
+        "name": "KORG Sound 10",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 9,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b10",
+        "name": "KORG Sound 11",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 10,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b11",
+        "name": "KORG Sound 12",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 11,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b12",
+        "name": "KORG Sound 13",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 12,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b13",
+        "name": "KORG Sound 14",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 13,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b14",
+        "name": "KORG Sound 15",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 14,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b15",
+        "name": "KORG Sound 16",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 15,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b16",
+        "name": "ACCORDIAN 🪗",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 16,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b17",
+        "name": "KORG Sound 18",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 17,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b18",
+        "name": "KORG Sound 19",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 18,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b19",
+        "name": "KORG Sound 20",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 19,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b20",
+        "name": "KORG Sound 21",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 20,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b21",
+        "name": "KORG Sound 22",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 21,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b22",
+        "name": "KORG Sound 23",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 22,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b23",
+        "name": "KORG Sound 24",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 23,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b24",
+        "name": "KORG Sound 25",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 24,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b25",
+        "name": "KORG Sound 26",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 25,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b26",
+        "name": "KORG Sound 27",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 26,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b27",
+        "name": "KORG Sound 28",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 27,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b28",
+        "name": "KORG Sound 29",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 28,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b29",
+        "name": "KORG Sound 30",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 29,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b30",
+        "name": "KORG Sound 31",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 30,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      },
+      {
+        "id": "p0_b31",
+        "name": "KORG Sound 32",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 31,
+            "volume": 100,
+            "useBank": true,
+            "msb": 1,
+            "lsb": 0
+          }
+        ],
+        "ribbonMode": "CC",
+        "ribbonCC": 11,
+        "outputIds": [
+          "output-3"
+        ]
+      }
+    ],
+    [
+      {
+        "id": "btn_1777064624429_0",
+        "name": "J SOUND1",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 0,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 0,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_1",
+        "name": "J SOUND2",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 1,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 1,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_2",
+        "name": "J SOUND3",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 2,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 2,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_3",
+        "name": "J SOUND4",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 3,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 3,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_4",
+        "name": "J SOUND5",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 4,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 4,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_5",
+        "name": "J SOUND6",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 5,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 5,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_6",
+        "name": "J SOUND7",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 6,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 6,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_7",
+        "name": "J SOUND8",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 7,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 7,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_8",
+        "name": "J SOUND9",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 8,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 8,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_9",
+        "name": "J SOUND10",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 9,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 9,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_10",
+        "name": "J SOUND11",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 10,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 10,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_11",
+        "name": "J SOUND12",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 11,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 11,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_12",
+        "name": "J SOUND13",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 12,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 12,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_13",
+        "name": "J SOUND14",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 13,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 13,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_14",
+        "name": "J SOUND15",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 14,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 14,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_15",
+        "name": "J SOUND16",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 15,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 15,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_16",
+        "name": "J SOUND17",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 16,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 16,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_17",
+        "name": "J SOUND18",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 17,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 17,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_18",
+        "name": "J SOUND19",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 18,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 18,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_19",
+        "name": "J SOUND20",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 19,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 19,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_20",
+        "name": "J SOUND21",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 20,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 20,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_21",
+        "name": "J SOUND22",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 21,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 21,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_22",
+        "name": "J SOUND23",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 22,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 22,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_23",
+        "name": "J SOUND24",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 23,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 23,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_24",
+        "name": "J SOUND25",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 24,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 24,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_25",
+        "name": "J SOUND26",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 25,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 25,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_26",
+        "name": "J SOUND27",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 26,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 26,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_27",
+        "name": "J SOUND28",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 27,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 27,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_28",
+        "name": "J SOUND29",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 28,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 28,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_29",
+        "name": "J SOUND30",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 29,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 29,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_30",
+        "name": "J SOUND31",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 30,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 30,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_31",
+        "name": "J SOUND32",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 31,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 31,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_32",
+        "name": "J SOUND33",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 32,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 32,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_33",
+        "name": "J SOUND34",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 33,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 33,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_34",
+        "name": "J SOUND35",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 34,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 34,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_35",
+        "name": "J SOUND36",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 35,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 35,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_36",
+        "name": "J SOUND37",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 36,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 36,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_37",
+        "name": "J SOUND38",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 37,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 37,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_38",
+        "name": "J SOUND39",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 38,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 38,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "btn_1777064624429_39",
+        "name": "J SOUND40",
+        "midiChannel": 1,
+        "type": "PC",
+        "programNumber": 39,
+        "value": 1,
+        "outputIds": [
+          "v-port-1777064476827"
+        ],
+        "ribbonMode": "PITCH",
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 39,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "kontakt_0",
+        "name": "Clarinet Arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 0,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 0,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_1",
+        "name": "Kaval Vibrato",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 1,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 1,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_2",
+        "name": "KANUN Arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 2,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 2,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_3",
+        "name": "KANON Arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 3,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 3,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_4",
+        "name": "KAVAL Arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 4,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 4,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_5",
+        "name": "FOSEN Arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 5,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 5,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_6",
+        "name": "GITAR Arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 6,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 6,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_7",
+        "name": "GITAR1 Arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 7,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 7,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_8",
+        "name": "INTER moss arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 8,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 8,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_9",
+        "name": "BOZUKI elektrik arab",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 9,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 9,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_10",
+        "name": "VIOLION Kelfar arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 10,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 10,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_11",
+        "name": "MOSS MARINKO  ARABIC",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 11,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 11,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_12",
+        "name": "LYAD Arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 12,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 12,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_13",
+        "name": "LEAD Arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 13,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 13,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_14",
+        "name": "MIJWEZ Moss arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 14,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 14,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_15",
+        "name": "NAY arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 15,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 15,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_16",
+        "name": "ROLAND SH arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 16,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 16,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_17",
+        "name": "SAX arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 17,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 17,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_18",
+        "name": "SAZ Moss arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 18,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 18,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_19",
+        "name": "R&Q moss",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 19,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 19,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_20",
+        "name": "STRING Arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 20,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 20,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_21",
+        "name": "SURLA arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 21,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 21,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_22",
+        "name": "T-OU arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 22,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 22,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_23",
+        "name": "KANON tremolo arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 23,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 23,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_24",
+        "name": "AIKA Solo arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 24,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 24,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_25",
+        "name": "VIOLINA arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 25,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 25,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_26",
+        "name": "ZOJRA arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 26,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 26,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_27",
+        "name": "ZURLA arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 27,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 27,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_28",
+        "name": "ZURNA1 arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 28,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 28,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_29",
+        "name": "STRING velo arabic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 29,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 29,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_30",
+        "name": "KASAB Ashraf ",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 30,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 30,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_31",
+        "name": "YARGOUL Ashraf",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 31,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 31,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_32",
+        "name": "DODUK A",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 32,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 32,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_33",
+        "name": "DODUK C",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 33,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 33,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_34",
+        "name": "KAVAL",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 34,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 34,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_35",
+        "name": "KAWALA",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 35,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 35,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_36",
+        "name": "MEY A  1",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 36,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 36,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_37",
+        "name": "MEY. A. 2",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 37,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 37,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_38",
+        "name": "Mey  A. 3",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 38,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 38,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_39",
+        "name": "MEY. G",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 39,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 39,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_40",
+        "name": "NEY A",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 40,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 40,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_41",
+        "name": "NEY  D",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 41,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 41,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_42",
+        "name": "TULUM 1",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 42,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 42,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_43",
+        "name": "TULUM. 2",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 43,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 43,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_44",
+        "name": "CLARINET TURKISH 1",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 44,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 44,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_45",
+        "name": "CLARINET Turkish  2",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 45,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 45,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_46",
+        "name": "ZURNA. A vib 2",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 46,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 46,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_47",
+        "name": "ZURNA A vib 3",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 47,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 47,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_48",
+        "name": "ZURNA G vib",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 48,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 48,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_49",
+        "name": "BASS tb",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 49,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 49,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_50",
+        "name": "BASS kosmajac",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 50,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 50,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_51",
+        "name": "BASS kronos",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 51,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 51,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_52",
+        "name": "BASS finger",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 52,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 52,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_53",
+        "name": "BRRASS sloba",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 53,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 53,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_54",
+        "name": "BRRASS down",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 54,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 54,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_55",
+        "name": "BRRASS ensamble",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 55,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 55,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_56",
+        "name": "BUZUKI sloba",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 56,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 56,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_57",
+        "name": "BUZUKI beliki",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 57,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 57,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_58",
+        "name": "BUZUKI. glisando",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 58,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 58,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_59",
+        "name": "HORN afro",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 59,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 59,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_60",
+        "name": "CHOIR. sloba",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 60,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_61",
+        "name": "CHORUS sloba",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 61,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 61,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_62",
+        "name": "KOR burra",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 62,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 62,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_63",
+        "name": "CLARINET. sloba",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 63,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 63,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_64",
+        "name": "CLARINET.  T3",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 64,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 64,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_65",
+        "name": "CLARINET sloba",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 65,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 65,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_66",
+        "name": "DRABUKA",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 66,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 66,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_67",
+        "name": "DARABUKA",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 67,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 67,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_68",
+        "name": "Drums tallava",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 68,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 68,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_69",
+        "name": "TUPAN dynamix",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 69,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 69,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_70",
+        "name": "DRUMS acustic",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 70,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 70,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_71",
+        "name": "FLAUTA cz",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 71,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 71,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_72",
+        "name": "FLAUTA dx",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 72,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 72,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_73",
+        "name": "FRULA",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 73,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 73,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_74",
+        "name": "FRULICA",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 74,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 74,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_75",
+        "name": "GAJDA",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 75,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 75,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_76",
+        "name": "GAJDA sloba",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 76,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 76,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_77",
+        "name": "GAJDA  oktave",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 77,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 77,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_78",
+        "name": "GAJDA kontakt",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 78,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 78,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_79",
+        "name": "CHOURS",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 79,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 79,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_80",
+        "name": "Guitar acc",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 80,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 80,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_81",
+        "name": "GUITAR  portamento",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 81,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 81,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_82",
+        "name": "GUITAR Enes. 🎸 ",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 82,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 82,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_83",
+        "name": "🎸  GUITAR nylon",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 83,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 83,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_84",
+        "name": "VIOLA🎻",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 84,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 84,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_85",
+        "name": "CHORD ⛮ power",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 85,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 85,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_86",
+        "name": "SOLO 🎸  guitar",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 86,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 86,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_87",
+        "name": "SOLO 🎸  guitar marki",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 87,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 87,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_88",
+        "name": "🎸 GUITAR steel",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 88,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 88,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_89",
+        "name": "ETHNIC strummer",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 89,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 89,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_90",
+        "name": "CLARINET🪈🪗 HARMONIC ",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 90,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 90,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_91",
+        "name": "🪗HARMONIC  president ",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 91,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 91,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_92",
+        "name": "Clarinet 🪈🪗HARMONIK kontakt",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 92,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 92,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_93",
+        "name": "Mandolina🪕",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 93,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 93,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_94",
+        "name": "MANDOLINA🪕 pratnja",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 94,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 94,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_95",
+        "name": "MANDOLINA solo🪕",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 95,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 95,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_96",
+        "name": "ORGAN draw🎹",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 96,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 96,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_97",
+        "name": "ORGAN rock 🎹",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 97,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 97,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_98",
+        "name": "PAD 1🎹",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 98,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 98,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_99",
+        "name": "PAD 2🎹",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 99,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 99,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_100",
+        "name": "PAD 3🎹",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 100,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 100,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_101",
+        "name": "PIANO magic🎹",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 101,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 101,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_102",
+        "name": "PIANO+ STRING🎹",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 102,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 102,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_103",
+        "name": "PIANO kronos🎹",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 103,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 103,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_104",
+        "name": "PIANO 🎹 motif",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 104,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 104,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_105",
+        "name": "STRINGS🎹",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 105,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 105,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_106",
+        "name": "STRINGS 🎹 interval",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 106,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 106,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_107",
+        "name": "STRING 🎹 y",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 107,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 107,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_108",
+        "name": "STRINGS🎹 turk",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 108,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 108,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_109",
+        "name": "STRING🎹 velo",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 109,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 109,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_110",
+        "name": "🎺 TRUMPET ",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 110,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 110,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_111",
+        "name": "TRUBA📯",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 111,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 111,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_112",
+        "name": "TRUBA📯2",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 112,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 112,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_113",
+        "name": "PIZZICATO 🎻",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 113,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 113,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_114",
+        "name": "STRINGS'  nylon",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 114,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 114,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_115",
+        "name": "VIOLINA 🎻dry",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 115,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 115,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_116",
+        "name": "VIOLINA IS 🎻 stara",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 116,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 116,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_117",
+        "name": "DRUMS🪘 ethno",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 117,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 117,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_118",
+        "name": "SOLO RXTRA🎹",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 118,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 118,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_119",
+        "name": "ACCORDIAN 🪗",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 119,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 119,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_120",
+        "name": "BRASS 🎹 ensemble",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 120,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 120,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_121",
+        "name": "TRUBAC📯",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 121,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 121,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_122",
+        "name": "TRUBA📯",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 122,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 122,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_123",
+        "name": "📯TRUBA fantom",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 123,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 123,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_124",
+        "name": "🎻VIOLIN improvizim",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 124,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 124,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_125",
+        "name": "🎸GUITAR  improvizim",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 125,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 125,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_126",
+        "name": "IMOROVIZIM😊🪘🎹🎻",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 126,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 126,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "kontakt_127",
+        "name": "IMOROVIZIM juzis😊🎻🎹",
+        "midiChannel": 1,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 127,
+        "layers": [
+          {
+            "active": true,
+            "channel": 1,
+            "program": 127,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "p8_b0",
+        "name": "LEAD 1 🎹jmar",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 0,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 0,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b1",
+        "name": "LEAD 2🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 1,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 1,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b2",
+        "name": "LEAD3🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 2,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 2,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b3",
+        "name": "LEAD 4🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 3,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 3,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b4",
+        "name": "LEAD 5🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 4,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 4,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b5",
+        "name": "LEAD6",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 5,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 5,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b6",
+        "name": "LEAD 7🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 6,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 6,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b7",
+        "name": "SACUARE 2🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 7,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 7,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b8",
+        "name": "SACUARE",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 8,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 8,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b9",
+        "name": "SWAKEN",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 9,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 9,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b10",
+        "name": "ACORDEAN 🪗 juzi",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 10,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 10,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b11",
+        "name": "ACCORDEAN 🪗 ",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 11,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 11,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b12",
+        "name": "CLARINET 🪈 amza",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 12,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 12,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b13",
+        "name": "CLARINET 🪈amza",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 13,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 13,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b14",
+        "name": "CLARINET 🪈amza",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 14,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 14,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b15",
+        "name": "VIOLIN  🎻 cigul",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 15,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 15,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b16",
+        "name": "CLARINET  🪈 corpus",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 16,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 16,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b17",
+        "name": "CLARINET2  🪈corpus",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 17,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 17,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b18",
+        "name": "CLARINET. 🪈 octay",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 18,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 18,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b19",
+        "name": "CLARINET 🪈 octay light",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 19,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 19,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b20",
+        "name": "CLARINET 🪈  gogo ",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 20,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 20,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b21",
+        "name": "Guitar  🎸 moss",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 21,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 21,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b22",
+        "name": "GUERINI🪗 juzi",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 22,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 22,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b23",
+        "name": "SAX 🎷 korg",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 23,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 23,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b24",
+        "name": "MOSS 🎹 live sh",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 24,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 24,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b25",
+        "name": "🎷 SAX  pikator",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 25,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 25,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b26",
+        "name": "MOSS 🎹 roza",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 26,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 26,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b27",
+        "name": "SALEAS",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 27,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 27,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b28",
+        "name": "🎷. SAX extrem",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 28,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 28,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b29",
+        "name": "🎷. SAX extrem light",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 29,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 29,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b30",
+        "name": "🎷. SAX morojac1",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 30,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 30,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b31",
+        "name": "🎷  SAX morojac 2",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 31,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 31,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b32",
+        "name": "🎷. SAX morojac3",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 32,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 32,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b33",
+        "name": "🎷. SAX morac sh",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 33,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 33,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b34",
+        "name": "🎷 SAX niki",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 34,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 34,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b35",
+        "name": "🎷 sopran juzi",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 35,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 35,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b36",
+        "name": "TRUBA 📯 dane",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 36,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 36,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b37",
+        "name": "TRUBA 📯 roland",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 37,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 37,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b38",
+        "name": "TRUBA 📯sh",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 38,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 38,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b39",
+        "name": "VIOLIN 🎻 zaza",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 39,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 39,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b40",
+        "name": "VIOLIN 🎻 zeta",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 40,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 40,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b41",
+        "name": "KAWAL 🪈",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 41,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 41,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b42",
+        "name": "GUITAR 🎸ac",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 42,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 42,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b43",
+        "name": "GUITAR 🎸 nylons ",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 43,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 43,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b44",
+        "name": "BASS 🎸 akcar2",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 44,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 44,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b45",
+        "name": "BASS 🎸 akcar3",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 45,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 45,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b46",
+        "name": "BASS 🎸 akcar",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 46,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 46,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b47",
+        "name": "BASS 🪕 prim tambura",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 47,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 47,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b48",
+        "name": "Bozuki 🪕ap",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 48,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 48,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b49",
+        "name": "BOZUKI 🎹 beliki",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 49,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 49,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b50",
+        "name": "BOZUKI 🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 50,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 50,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b51",
+        "name": "BRRASS 🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 51,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 51,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b52",
+        "name": "CHORUS 🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 52,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 52,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b53",
+        "name": "CHOURS 🎹 electr",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 53,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 53,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b54",
+        "name": "TREMOLO 🪕 electric ",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 54,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 54,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b55",
+        "name": "🎸 guitar ELECT",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 55,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 55,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b56",
+        "name": "GUITAR 🎸distortion ",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 56,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 56,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b57",
+        "name": "Guitar 🎸. Distorcija",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 57,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 57,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b58",
+        "name": "FLAUT🪈 ",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 58,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 58,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b59",
+        "name": "FLAUTA 🪈 pa1x",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 59,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 59,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b60",
+        "name": "🪗🪈 GUERUNI CLARINET",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 60,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 60,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b61",
+        "name": "🪗 GUERINI basson",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 61,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 61,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b62",
+        "name": "🪗GUERINI sopran",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 62,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 62,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b63",
+        "name": "Clarinets  🪈 sloba",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 63,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 63,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b64",
+        "name": "CLARINET 🪈 fantom",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 64,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 64,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b65",
+        "name": "CLARINET 🪈 corpus",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 65,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 65,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b66",
+        "name": "BIMBA",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 66,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 66,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b67",
+        "name": "GUITAR 🎸  contra",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 67,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 67,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b68",
+        "name": "DRAW 🎹 organ",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 68,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 68,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b69",
+        "name": "ORGAN 🎹 good",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 69,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 69,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b70",
+        "name": "ORGAN🎹 rock",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 70,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 70,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b71",
+        "name": "PIANO 🎹CONCERT",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 71,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 71,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b72",
+        "name": "PIANO 🎹pad",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 72,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 72,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b73",
+        "name": "PIANO 🎹 grand ",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 73,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 73,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b74",
+        "name": "PIANO🎹  GRAND ultimate ",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 74,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 74,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b75",
+        "name": "PIANO 🎹grand pure",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 75,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 75,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b76",
+        "name": "PIANO 🎹 studio grand",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 76,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 76,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b77",
+        "name": "GUITAR 🎸. POWER CHORF",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 77,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 77,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b78",
+        "name": "🎷 SAX1 alto",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 78,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 78,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b79",
+        "name": "🎷 SAX alto",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 79,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 79,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b80",
+        "name": "🎷 SAX fantom",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 80,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 80,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b81",
+        "name": "🎷 SAX extrem",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 81,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 81,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b82",
+        "name": "🎷 SAX slova",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 82,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 82,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b83",
+        "name": "ALBAN'S 🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 83,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 83,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b84",
+        "name": "BASHAL 🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 84,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 84,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b85",
+        "name": "BERHAM🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 85,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 85,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b86",
+        "name": "BOSANAC ",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 86,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 86,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b87",
+        "name": "DOZA",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 87,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 87,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b88",
+        "name": "DRAGAN🎹 branoy",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 88,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 88,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b89",
+        "name": "GOCE 🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 89,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 89,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b90",
+        "name": "KRONOS 🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 90,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 90,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b91",
+        "name": "MILICA 🎹 3 portamento",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 91,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 91,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b92",
+        "name": "MOSS 🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 92,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 92,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b93",
+        "name": "MOSS🎹 nedim",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 93,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 93,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b94",
+        "name": "SEIKO🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 94,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 94,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b95",
+        "name": "SHEFCET 🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 95,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 95,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b96",
+        "name": "SYN 🎹org",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 96,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 96,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b97",
+        "name": "ZURLA 🪈 Turk",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 97,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 97,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b98",
+        "name": "WAW🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 98,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 98,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b99",
+        "name": "PAD 🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 99,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 99,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b100",
+        "name": "STRINGS🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 100,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 100,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b101",
+        "name": "STRINGS 🎹interval",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 101,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 101,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b102",
+        "name": "STRING  🎹velo",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 102,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 102,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b103",
+        "name": "STRINGS🎹 velo1",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 103,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 103,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b104",
+        "name": "PIANO🎹grand Kronos ",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 104,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 104,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b105",
+        "name": "Piano 🎹 balad",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 105,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 105,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b106",
+        "name": "🎷 SAX juzi",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 106,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 106,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b107",
+        "name": "CLARINET  🪈swam bas",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 107,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 107,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b108",
+        "name": "VIOLIN🎻 ogi",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 108,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 108,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b109",
+        "name": "🎻 VIOLIN arabe",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 109,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 109,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b110",
+        "name": "STRINGS🎹 turkey ",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 110,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 110,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b111",
+        "name": "🎷. SAX ubi",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 111,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 111,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b112",
+        "name": "🎷 SAX anza",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 112,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 112,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b113",
+        "name": "🎷 🎹 SAX & moss",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 113,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 113,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b114",
+        "name": "GAJDE 📯moss",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 114,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 114,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b115",
+        "name": "PHASER 🎹 m3",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 115,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 115,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b116",
+        "name": "MATIO🎹 mrcko",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 116,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 116,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b117",
+        "name": "MOSS 2🎹",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 117,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 117,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b118",
+        "name": "QIFTELI🪕",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 118,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 118,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b119",
+        "name": "SHAIN ZERA😊😂",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 119,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 119,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b120",
+        "name": "DRUM🥁  oki",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 120,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 120,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b121",
+        "name": "🥁 DRUM OKI1",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 121,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 121,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b122",
+        "name": "🥁 DRUM kit dynamix",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 122,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 122,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b123",
+        "name": "🥁 DRUMS nashvill",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 123,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 123,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b124",
+        "name": "🥁 DRUMS TD7",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 124,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 124,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      },
+      {
+        "id": "p8_b125",
+        "name": "🥁 DRUMS standard kit",
+        "midiChannel": 2,
+        "type": "PC",
+        "value": 60,
+        "ribbonMode": "PITCH",
+        "outputIds": [
+          "v-port-1777064477917"
+        ],
+        "programNumber": 125,
+        "layers": [
+          {
+            "active": true,
+            "channel": 2,
+            "program": 125,
+            "volume": 100,
+            "useBank": false,
+            "msb": 0,
+            "lsb": 0
+          }
+        ]
+      }
+    ]
+  ],
+  "pageNames": [
+    "Korg pa",
+    "JUZI",
+    "KONTAKT CH 1",
+    "KONTAKT CH 2"
+  ],
+  "microtuningActive": true,
+  "tuningMap": {
+    "C": -50,
+    "C#": -50,
+    "D": -50,
+    "D#": -50,
+    "E": -50,
+    "F": -50,
+    "F#": -50,
+    "G": -50,
+    "G#": -50,
+    "A": -50,
+    "A#": -50,
+    "B": -50
+  },
+  "activeMicroNotes": {
+    "B": true,
+    "F#": true,
+    "A#": false,
+    "A": false,
+    "G#": false,
+    "G": false,
+    "F": false,
+    "E": false,
+    "D#": false,
+    "D": false,
+    "C#": false,
+    "C": false
+  },
+  "octave": 0,
+  "transpose": 0,
+  "harmonyInterval": "OFF",
+  "harmonyConfig": {
+    "id": "harmony_btn",
+    "name": "Terca",
+    "midiChannel": 3,
+    "type": "PC",
+    "value": 80,
+    "layers": [
+      {
+        "active": true,
+        "channel": 3,
+        "program": 80,
+        "volume": 59
+      }
+    ]
+  },
+  "ribbonConfig": {
+    "id": "ribbon_master",
+    "name": "Ribbon",
+    "midiChannel": 1,
+    "type": "PITCH",
+    "value": 0,
+    "sysex": "F0 7E 7F 06 01 F7",
+    "outputIds": [
+      "v-port-1777064476827"
+    ],
+    "currentValue": 8192
+  },
+  "microtuningPresets": [
+    {
+      "id": "mt_1764959757401",
+      "name": "A arabic",
+      "map": {
+        "C": 0,
+        "C#": 0,
+        "D": 0,
+        "D#": 0,
+        "E": 0,
+        "F": 0,
+        "F#": -50,
+        "G": 0,
+        "G#": 0,
+        "A": 0,
+        "A#": 0,
+        "B": -50
+      },
+      "activeNotes": {
+        "B": true,
+        "F#": true
+      }
+    },
+    {
+      "id": "mt_1764959817409",
+      "name": "G ARABIC",
+      "map": {
+        "C": 0,
+        "C#": 0,
+        "D": 0,
+        "D#": 0,
+        "E": -50,
+        "F": 0,
+        "F#": -50,
+        "G": 0,
+        "G#": 0,
+        "A": -50,
+        "A#": 0,
+        "B": -50
+      },
+      "activeNotes": {
+        "B": false,
+        "F#": false,
+        "A": true,
+        "E": true
+      }
+    },
+    {
+      "id": "mt_1764959859555",
+      "name": "D arabic",
+      "map": {
+        "C": 0,
+        "C#": 0,
+        "D": 0,
+        "D#": 0,
+        "E": -50,
+        "F": 0,
+        "F#": -50,
+        "G": 0,
+        "G#": 0,
+        "A": -50,
+        "A#": 0,
+        "B": -50
+      },
+      "activeNotes": {
+        "B": true,
+        "F#": false,
+        "A": false,
+        "E": true
+      }
+    },
+    {
+      "id": "mt_1775515602600",
+      "name": "RESET",
+      "map": {
+        "C": 0,
+        "C#": 0,
+        "D": 0,
+        "D#": 0,
+        "E": 0,
+        "F": 0,
+        "F#": -50,
+        "G": 0,
+        "G#": 0,
+        "A": 0,
+        "A#": 0,
+        "B": -50
+      },
+      "activeNotes": {
+        "B": false,
+        "F#": false,
+        "A#": false,
+        "A": false,
+        "G#": false,
+        "G": false
+      }
+    },
+    {
+      "id": "mt_1775515705160",
+      "name": "TUNED",
+      "map": {
+        "C": -50,
+        "C#": -50,
+        "D": -50,
+        "D#": -50,
+        "E": -50,
+        "F": -50,
+        "F#": -50,
+        "G": -50,
+        "G#": -50,
+        "A": -50,
+        "A#": -50,
+        "B": -50
+      },
+      "activeNotes": {
+        "B": true,
+        "F#": true,
+        "A#": true,
+        "A": true,
+        "G#": true,
+        "G": true,
+        "F": true,
+        "E": true,
+        "D#": true,
+        "D": true,
+        "C#": true,
+        "C": true
+      }
+    }
+  ],
+  "microtuningFavorites": [
+    {
+      "id": "fav_1775515726032",
+      "name": "Fav 1",
+      "map": {
+        "C": -50,
+        "C#": -50,
+        "D": -50,
+        "D#": -50,
+        "E": -50,
+        "F": -50,
+        "F#": -50,
+        "G": -50,
+        "G#": -50,
+        "A": -50,
+        "A#": -50,
+        "B": -50
+      },
+      "activeNotes": {
+        "B": true,
+        "F#": true,
+        "A#": false,
+        "A": false,
+        "G#": false,
+        "G": false,
+        "F": false,
+        "E": false,
+        "D#": false,
+        "D": false,
+        "C#": false,
+        "C": false
+      }
+    },
+    {
+      "id": "fav_1775515744961",
+      "name": "Fav 2",
+      "map": {
+        "C": -50,
+        "C#": -50,
+        "D": -50,
+        "D#": -50,
+        "E": -50,
+        "F": -50,
+        "F#": -50,
+        "G": -50,
+        "G#": -50,
+        "A": -50,
+        "A#": -50,
+        "B": -50
+      },
+      "activeNotes": {
+        "B": false,
+        "F#": false,
+        "A#": false,
+        "A": true,
+        "G#": false,
+        "G": false,
+        "F": false,
+        "E": true,
+        "D#": false,
+        "D": false,
+        "C#": false,
+        "C": false
+      }
+    },
+    {
+      "id": "fav_1775515757303",
+      "name": "Fav 3",
+      "map": {
+        "C": -50,
+        "C#": -50,
+        "D": -50,
+        "D#": -50,
+        "E": -50,
+        "F": -50,
+        "F#": -50,
+        "G": -50,
+        "G#": -50,
+        "A": -50,
+        "A#": -50,
+        "B": -50
+      },
+      "activeNotes": {
+        "B": true,
+        "F#": false,
+        "A#": false,
+        "A": false,
+        "G#": false,
+        "G": false,
+        "F": false,
+        "E": true,
+        "D#": false,
+        "D": false,
+        "C#": false,
+        "C": false
+      }
+    }
+  ],
+  "theme": "gold",
+  "selectedOutIds": [
+    "output-3",
+    "v-port-1777064476827",
+    "v-port-1777064477917"
+  ]
+}
