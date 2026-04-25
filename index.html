@@ -7,10 +7,25 @@
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #e0e0e0; background: #0f0f0f; padding: 20px; max-width: 900px; margin: auto; }
         .container { background: #1a1a1a; padding: 40px; border-radius: 12px; border: 1px solid #333; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
-        h1 { color: #d4af37; text-align: center; font-size: 2.5em; }
-        h2 { color: #d4af37; border-bottom: 1px solid #444; padding-bottom: 10px; margin-top: 30px; }
+        h1 { color: #d4af37; text-align: center; font-size: 2.5em; margin-bottom: 10px; }
+        h2 { color: #d4af37; border-bottom: 1px solid #444; padding-bottom: 10px; margin-top: 40px; }
         .feature-list { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; list-style: none; padding: 0; }
         .feature-item { background: #252525; padding: 15px; border-radius: 8px; border-left: 4px solid #d4af37; }
+        
+        /* Butonat Gold */
+        .btn-gold { 
+            display: inline-block; 
+            background: linear-gradient(145deg, #d4af37, #b8860b); 
+            color: #000; 
+            padding: 12px 25px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold; 
+            margin-top: 10px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4); }
+        
         .privacy-box { background: #111; padding: 20px; border-radius: 8px; font-size: 0.9em; margin-top: 40px; border: 1px dashed #555; }
         footer { text-align: center; margin-top: 40px; font-size: 0.8em; color: #666; }
         .contact { color: #d4af37; font-weight: bold; }
@@ -27,6 +42,20 @@
             <div class="feature-item"><strong>Microtuning:</strong> Full scale library with real-time tuning offsets and smart transpose.</div>
             <div class="feature-item"><strong>Unlimited Power:</strong> Add infinite pages, buttons, and custom MIDI CC sliders.</div>
             <div class="feature-item"><strong>Live-Ready:</strong> MIDI Learn, Panic button, and 5 premium visual themes.</div>
+        </div>
+
+        <h2>Resources & Downloads</h2>
+        <div class="feature-list">
+            <div class="feature-item">
+                <strong>Microtuning Presets</strong><br>
+                Download a collection of professional scales (JSON format).<br>
+                <a href="balkan_scales.json" class="btn-gold" download>Download Scales</a>
+            </div>
+            <div class="feature-item">
+                <strong>Android Application</strong><br>
+                Install the latest version of AB MIDI Router via Play Store.<br>
+                <a href="https://play.google.com/store/apps/details?id=com.bardhyl.abmidirouter" class="btn-gold">Get it on Google Play</a>
+            </div>
         </div>
 
         <h2 id="privacy">Privacy Policy</h2>
